@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #fefae0;
+    border: 1px solid #faedcd;
+    border-radius: 15%;
+    height: 28px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #faedcd;
+    border: 1px solid #fcf6bd;
+    border-radius: 15%;
+}
+
+.btn:active {
+    cursor: pointer;
+    background-color: #f2cc8f;
+    border: 1px solid #f2cc8f;
+    border-radius: 15%;
+}
+
+table {
+    border: 1px solid #f2cc8f;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #faedcd;
+}
+
+tbody {
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #fefae0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.alert {
+    color: red;
+    font-size: 8px;
+}
+
+.inputTodo {
+    margin-right: 5px;
+    font-size: 24px;
+}

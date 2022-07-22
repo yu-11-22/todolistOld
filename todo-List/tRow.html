@@ -1,0 +1,13 @@
+<tr>
+    <td>{{$id}}</td>
+    <td>{{$list}}</td>
+    <td>
+        <a href="todoList.php?delId={{$id}}">X</a>
+    </td>
+    <td>
+        <form method="post" action="todoList.php">
+            <input type="text" name="newList{{$id}}" placeholder="輸入更改事項">
+            <button type="submit" name="submit" class="btn">確認</button>
+        </form>
+    </td>
+</tr>

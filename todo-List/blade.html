@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+{{$head}}
+<body>
+    <div class="header">
+        <div class="inputTodo">
+            待辦事項:
+        </div>
+        <form method="post" action="todoList.php">
+            <input type="text" name="list" placeholder="輸入待辦事項">
+            <button type="submit" name="submit" class="btn">增加事項</button>
+            <br>
+            <div class="alert">
+                {{$errors}}
+            </div>
+            <input type="hidden" name="hidden"></input>
+        </form>
+
+    </div>
+    <div class="content">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 100px;">編號</th>
+                    <th style="width: 500px;">待辦事項</th>
+                    <th style="width: 100px;">刪除</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{$trow}}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
