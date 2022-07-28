@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 100px;
 }
 
@@ -17,6 +17,7 @@
     border: 1px solid #faedcd;
     border-radius: 15%;
     height: 28px;
+    margin-left: 5px;
 }
 
 .btn:hover {
@@ -68,4 +69,5 @@ a {
 .inputTodo {
     margin-right: 5px;
     font-size: 24px;
+    font-weight: bold;
 }
