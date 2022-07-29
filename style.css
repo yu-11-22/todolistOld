@@ -1,0 +1,154 @@
+:root {
+    --background-color: rgb(248, 220, 183);
+    --font-color: rgb(255, 107, 127);
+    --hover-color: rgb(233, 77, 98);
+    --active-color: rgb(209, 50, 72);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.title {
+    margin-top: 12rem;
+    text-align: center;
+    color: var(--font-color);
+}
+
+.login {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.account,
+.password {
+    font-size: 20px;
+    color: var(--font-color);
+}
+
+.password {
+    margin-top: 2rem;
+}
+
+.button {
+    margin-top: 5rem;
+}
+
+.reset,
+.submit {
+    cursor: pointer;
+    color: #fff;
+    width: 4rem;
+    height: 2rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--font-color);
+}
+
+.reset:hover,
+.submit:hover {
+    background-color: var(--hover-color);
+}
+
+.reset:active,
+.submit:active {
+    width: 3.9rem;
+    height: 1.9rem;
+    background-color: var(--active-color);
+}
+
+.reset {
+    margin-right: 5rem;
+}
+
+input {
+    width: 15rem;
+    height: 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border-color: var(--font-color);
+}
+
+input:focus {
+    border-color: var(--active-color);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #fefae0;
+    border: 1px solid #faedcd;
+    border-radius: 15%;
+    height: 28px;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #faedcd;
+    border: 1px solid #fcf6bd;
+    border-radius: 15%;
+}
+
+.btn:active {
+    cursor: pointer;
+    background-color: #f2cc8f;
+    border: 1px solid #f2cc8f;
+    border-radius: 15%;
+}
+
+table {
+    border: 1px solid #f2cc8f;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #faedcd;
+}
+
+tbody {
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #fefae0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.alert {
+    color: red;
+    font-size: 8px;
+}
+
+.inputTodo {
+    margin-right: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
